@@ -3,17 +3,14 @@
 #include<vector>
 using namespace std;
 
-void getInput(vector<int> cards){
+void getInput(vector<int> &cards){
 	int n;
 	cin>>n;
 	for(int i=0; i<n; i++){
 		int card; cin>>card;
 		cards.push_back(card);
 	}
-	for(int i=0; i<n; i++){
-		cout<<cards[i]<<endl;
-		
-	}
+   
 }
 int main(){
 	int testCase;
@@ -22,6 +19,10 @@ int main(){
 	while(testCase--){
 	vector<int> cards;
 	getInput(cards);
+    
+	for(int i=0; i<cards.size(); i++){
+		cout<<cards[i]<<" ";;
+	}cout<<endl;
 	}
 	return 0;
 }
