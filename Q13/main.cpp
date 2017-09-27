@@ -23,10 +23,12 @@ int main(){
     }
     for(int i =0; i<n; i++){
         for(int j =i+1; j<n; j++){
-            sums.push_back(arr[i]+arr[j]-k);            
+            sums.push_back((arr[i]+arr[j]-k)<0?-(arr[i]+arr[j]-k):(arr[i]+arr[j]-k));            
+
         }
     }
-    sort(sums.begin(),sums.end(),func);
+    //sort(sums.begin(),sums.end(),func);
+    sort(sums.begin(),sums.end());
     int cnt =1;
     for(int i=0; i<sums.size(); i++){
     if(sums[i]==sums[i+1] || sums [i]==-sums[i+1]) cnt+=1;
