@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "findTosolve.py", line 32, in <module>
+    a=find()
+  File "findTosolve.py", line 29, in find
+    print(len(tosolve)-len(solve))
+NameError: name 'tosolve' is not defined
