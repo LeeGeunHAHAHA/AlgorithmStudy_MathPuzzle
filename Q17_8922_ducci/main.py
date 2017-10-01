@@ -1,28 +1,33 @@
 def getInput():
     n = int(input())
     line = input().split()
-    if isAllSame(line) : return True
-    a =[int(i) for i in line]
-    return calc(a)
-def calc(ducci):
-    print(ducci)
+    inputList = [int(i) for i in line]
+    return inputList
+def cal(ducci):
+    if containSame(ducci) : return True
+    if len(ducci)%2 ==1 : return False
+    dcpocket=[]
+    dcpocket.append(ducci)
     l= len(ducci)
-    if l%2==1: return False 
-    if isAllSame(ducci): return True
-    for i in range(0,l+1):
-        ducci[i-l] = abs(ducci[i-l]-ducci[i+1-l])
-    return calc(ducci)
-def isAllSame(ducci):
-    a=ducci[0]
+    while 1 :
+        ducci = dcpocket[-1]
+        newDucci=[]
+        for i in range (0,l):
+                newDucci.append(abs(ducci[i]-ducci[-l+i+1]))
+        if containSame(newDucci) :return True
+        try:
+            if dcpocket.index(newDucci) : return False
+        except :
+            dcpocket.append(newDucci)
+def containSame(ducci):
+    a = ducci[0]
     for i in ducci:
-        if i!=a: return False
+        if i != a : return False
     return True
-
-# start of main
-if __name__ =="__main__":
-    testCase =0
+if __name__ == "__main__":
     testCase = int(input())
-    while testCase!=0:
-        if getInput(): print("ZERO")
+    while testCase:
+        a = getInput()
+        if cal(a) : print ("ZERO")
         else : print("LOOP")
         testCase-=1
