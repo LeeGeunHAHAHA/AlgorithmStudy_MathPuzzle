@@ -36,20 +36,45 @@ int calDist(int target){
     return dist;
 
 }
-
-const int INF = 987654321;
-
 int dx[] = {0,1,0,-1};
 int dy[] = {-1,0,1,0};
 
 int shift[11];
 map<int,int> dist;
-void printState(int state){
-    for( int i =0; i< openQ.size(); i++){
-    cout<<"in openQ : " << openQ[i].first<<",  h(n) : "<<openQ[i].second <<endl;
+void decode(int n){
+    int screen [9];
+    for(int i =0; i<9 ; i++) screen[i]=0;
+    int idx =0;
+    while (n>0){
+        screen[idx] = n%10;
+        n /=10;
+        idx ++;
     }
+    for(int i = 8; i>= 0 ; i-=3){
+        for(int j = i; j>=i-2; j--){
+            cout<<screen[j]<<" ";   
+        }cout<<endl;
+    }
+
+
+}
+void printState(int state){
+    cout<<"------------------------------"<<endl;
+    cout<<"in openQ : " <<endl;
+    cout<<"------------------------------"<<endl;
+    for( int i =0; i< openQ.size(); i++){
+        decode( openQ[i].first);
+        cout<< " g(n) : "<<openQ[i].second <<endl;
+        cout<<endl;
+    }
+    cout<<"------------------------------"<<endl;
+    cout<<"in closedQ : " <<endl;
+    cout<<"------------------------------"<<endl;
     for( int i =0; i< closedQ.size(); i++){
-    cout<<"in closedQ : " << closedQ[i].first<<",  h(n) : "<<closedQ[i].second <<endl;
+        decode( closedQ[i].first);
+        cout<< " g(n) : "<<closedQ[i].second <<endl;
+        cout<<endl;
+
     }
 }
 
@@ -66,8 +91,13 @@ int bfs(int start)
         printState(cur);
         pair <int, int> close = openQ.front();
         closedQ.push_back(close);
-        cout<<"-------------------------------------"<<endl;
-        cout<<"current node  :   "<<cur<<endl;
+        cout<<"------------------------------"<<endl;
+        cout<<"current node  :   "<<endl;
+        cout<<"------------------------------"<<endl;
+        cout<<endl;
+        decode(cur);
+        cout<<"------------------------------"<<endl;
+        cout<<endl;
         openQ.erase(openQ.begin());
         if (cur ==123804765) break;
         int one = 0;
@@ -116,5 +146,5 @@ int main()
         start *= 10;
         start += x;
     }
-    printf("%d",bfs(start));
+    cout<<"path is : "<<bfs(start)<<endl;
 }
