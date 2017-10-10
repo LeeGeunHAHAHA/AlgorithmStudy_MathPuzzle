@@ -3,15 +3,8 @@
 #include <cstdlib>
 #include <algorithm>
 #include <vector>
-#include <iostream>
 #include <cmath>
-#include <cstring>
-#include <string>
-#include <stack>
 #include <queue>
-#include <set>
-#include <list>
-#include <deque>
 #include <bits/stdc++.h>
 
 #define mt(a,b,c) make_pair((a),(make_pair((b),(c))))
