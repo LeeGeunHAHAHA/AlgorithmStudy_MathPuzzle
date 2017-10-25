@@ -118,7 +118,6 @@ int bfs(int start)
                 openQ.push_back(tmp);
                 dist[next] = d + 1;
                 sort(openQ.begin(),openQ.end(),sort_second()); 
-                
             }
         }
 
