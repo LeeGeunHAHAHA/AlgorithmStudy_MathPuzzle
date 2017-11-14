@@ -16,3 +16,5 @@ Q26_insertOp-> [연산자 끼워 넣기](./Q26_insertOp/14888.pdf)
 Q27_virus-> [연구소](./Q27_virus/14502번.pdf)
  
 Q29_boj_1699-> [제곱수](./Q29_boj_1699/1699.pdf) 
+
+Q31-> [n-queen](./Q31/9663.pdf) 
