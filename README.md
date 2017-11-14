@@ -18,3 +18,5 @@ Q27_virus-> [연구소](./Q27_virus/14502번.pdf)
 Q29_boj_1699-> [제곱수](./Q29_boj_1699/1699.pdf) 
 
 Q31-> [n-queen](./Q31_boj_9663/9663.pdf) 
+
+Q32_boj_100039-> [print average](./Q32_boj_100039/100039.pdf) 
