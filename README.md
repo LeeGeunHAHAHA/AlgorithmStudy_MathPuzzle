@@ -21,4 +21,6 @@ Q31-> [n-queen](./Q31_boj_9663/9663.pdf)
 
 Q32_boj_10039-> [print average](./Q32_boj_10039/10039.pdf) 
 
-Q32_boj_2490-> [print average](./Q33_boj_2490/2490.pdf)
+Q33_boj_2490-> [print average](./Q33_boj_2490/2490.pdf)
+
+Q34_boj_10872-> [print average](./Q34_boj_10872/10872.pdf)
