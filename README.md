@@ -28,3 +28,5 @@ Q34_boj_10872-> [factorial](./Q34_boj_10872/10872.pdf)
 Q38_boj_2950-> [에라토스테네스의 체](./Q38_boj_2960/2960.pdf)
 
 Q39_boj_4948-> [에라토스테네스의 체2](./Q39_boj_4948/4948.pdf)
+
+Q40_algolab_happyNumber-> [happyNum](./Q40_algolab_happyNumber/happy.pdf)
