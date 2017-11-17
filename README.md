@@ -32,3 +32,5 @@ Q39_boj_4948-> [에라토스테네스의 체2](./Q39_boj_4948/4948.pdf)
 Q40_algolab_happyNumber-> [happyNum](./Q40_algolab_happyNumber/happy.pdf)
 
 Q42_boj_1764-> [듣보잡 교집합 구하기](./Q42_boj_1764/1764.pdf)
+
+Q43_boj_2563-> [색종이](./Q43_boj_2563/2563.pdf)
