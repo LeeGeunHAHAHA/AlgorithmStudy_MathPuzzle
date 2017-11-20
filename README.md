@@ -34,3 +34,5 @@ Q40_algolab_happyNumber-> [happyNum](./Q40_algolab_happyNumber/happy.pdf)
 Q42_boj_1764-> [듣보잡 교집합 구하기](./Q42_boj_1764/1764.pdf)
 
 Q43_boj_2563-> [색종이](./Q43_boj_2563/2563.pdf)
+
+Q53_boj_1159-> [농구 lambda, map](./Q53_boj_1159/1159.pdf)
