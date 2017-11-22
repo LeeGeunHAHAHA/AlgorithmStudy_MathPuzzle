@@ -22,3 +22,4 @@ Q43_boj_2563-> [색종이](./Q43_boj_2563/2563.pdf)</br>
 Q53_boj_1159-> [농구 lambda, map](./Q53_boj_1159/1159.pdf)</br>
 Q58_boj_1707-> [이분 그래프](./Q58_boj_1707/1707.pdf)</br>
 Q61_boj_2331-> [loop 제거](./Q61_boj_2331/2331.pdf)</br>
+Q62_boj_9466-> [loop count](./Q62_boj_9466/9466.pdf)</br>
