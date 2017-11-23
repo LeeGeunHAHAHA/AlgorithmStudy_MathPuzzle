@@ -24,3 +24,4 @@ Q58_boj_1707-> [이분 그래프](./Q58_boj_1707/1707.pdf)</br>
 Q61_boj_2331-> [loop 제거](./Q61_boj_2331/2331.pdf)</br>
 Q62_boj_9466-> [loop count](./Q62_boj_9466/9466.pdf)</br>
 Q64_boj_2798-> [bin search and permutation](./Q64_boj_2798/2798.pdf)</br>
+Q65_boj_5567-> [BFS](./Q65_boj_5567/5567.pdf)</br>
