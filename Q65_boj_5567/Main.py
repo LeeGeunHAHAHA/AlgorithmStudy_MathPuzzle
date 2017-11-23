@@ -21,10 +21,10 @@ def bfs(cur,idx) :
                 q.append(i)
                 visit[i] = cnt
 bfs(0,1)
-print(cnj)
-print(visit)
-a = list(map(lambda x:1 if x>1 and x<5 else 0  ,visit.values))
-print(a)
+#print(cnj)
+#print(visit)
+a = list(map(lambda x:1 if x>1 and x<4 else 0  ,visit.values()))
+print(sum(a))
 
 
 
