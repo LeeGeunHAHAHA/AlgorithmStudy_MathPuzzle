@@ -26,3 +26,4 @@ Q62_boj_9466-> [loop count](./Q62_boj_9466/9466.pdf)</br>
 Q64_boj_2798-> [bin search and permutation](./Q64_boj_2798/2798.pdf)</br>
 Q65_boj_5567-> [BFS](./Q65_boj_5567/5567.pdf)</br>
 Q67_boj_2783-> [functools practice](./Q67_boj_2783/2783.pdf)</br>
+Q68_boj_4963-> [count connection](./Q68_boj_4963/4963.pdf)</br>
