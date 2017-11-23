@@ -1,15 +1,13 @@
-import copy.deepcopy
+import bisect
 c, ub = map(int, input().split())
 cards = list(map(int, input().split()))
-
-def cal(idx,target) :
-    if idx ==3 :
-        for i in target :
-            return i
-    t = target 
-    for i in range(len(t)) : 
-        p =t.pop(i)
-        cal(idx+1,t)
-        t.(i,p)
+sums =[]
+for i in range(len(cards)-2):
+    for j in range(i+1,(len(cards)-1)):
+            for k in range(j+1,(len(cards))):
+                sums.append(cards[i]+cards[j]+cards[k])
+t=sorted(sums)
+idx=bisect.bisect(t,ub)
+print(t[idx-1])
     
     
