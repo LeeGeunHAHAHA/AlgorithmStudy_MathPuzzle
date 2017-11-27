@@ -29,3 +29,5 @@ Q67_boj_2783-> [functools practice](./Q67_boj_2783/2783.pdf)</br>
 Q68_boj_4963-> [count connection](./Q68_boj_4963/4963.pdf)</br>
 Q69_boj_7576-> [optioned BFS](./Q69_boj_7576/7576.pdf)</br>
 Q70_boj_1149-> [dynamic programming](./Q70_boj_1149/1149.pdf)</br>
+Q71_boj_1788-> [dynamic programming](./Q71_boj_1788/1788.pdf)</br>
+Q72_boj_1010-> [dynamic programming](./Q72_boj_1010/1010.pdf)</br>
