@@ -32,5 +32,6 @@ Q70_boj_1149-> [dynamic programming](./Q70_boj_1149/1149.pdf)</br>
 Q71_boj_1788-> [dynamic programming](./Q71_boj_1788/1788.pdf)</br>
 Q72_boj_1010-> [dynamic programming](./Q72_boj_1010/1010.pdf)</br>
 Q73_boj_11052-> [dynamic programming](./Q73_boj_11052/11052.pdf)</br>
-###Q74_boj_2293-> [dynamic programming](./Q74_boj_2293/2293.pdf)</br>
-###Q75_boj_2294-> [dynamic programming](./Q75_boj_2294/2294.pdf)</br>
+***Q74_boj_2293-> [dynamic programming](./Q74_boj_2293/2293.pdf)</br>
+Q75_boj_2294-> [dynamic programming](./Q75_boj_2294/2294.pdf)</br>
+Q76_boj_2163-> [dynamic programming??](./Q76_boj_2163/2163.pdf)</br>
