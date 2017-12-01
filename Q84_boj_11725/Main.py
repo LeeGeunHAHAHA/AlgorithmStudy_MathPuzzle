@@ -16,7 +16,6 @@ def BFS(root):
             if depth[i] == 0 :
                 depth[i] = d+1
                 q.append((d+1,cnj[i]))
-            
 BFS(0)
 for i in range(1,N):
     index = depth[i]
