@@ -41,4 +41,4 @@ Q79_boj_1965-> [dynamic programming](./Q79_boj_1965/1965.pdf)</br>
 Q80_boj_11048-> [dynamic programming](./Q80_boj_11048/11048.pdf)</br>
 Q81_boj_1991-> [traversing tree ](./Q81_boj_1991/1991.pdf)</br>
 Q84_boj_11725-> [find parent root ](./Q84_boj_11725/11725.pdf)</br>
-Q85_boj_11054-> [dinamic programming] parent root ](./Q85_boj_11054/11054.pdf)</br>
+Q85_boj_11054-> [dinamic programming](./Q85_boj_11054/11054.pdf)</br>
