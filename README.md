@@ -44,4 +44,4 @@ Q84_boj_11725-> [find parent root ](./Q84_boj_11725/11725.pdf)</br>
 Q85_boj_11054-> [dinamic programming](./Q85_boj_11054/11054.pdf)</br>
 Q86_boj_1167-> [graph](./Q86_boj_1167/1167.pdf)</br>
 Q88_boj_2110-> [binsect](./Q88_boj_2110/2110.pdf)</br>
-Q89_boj_3023-> [binsect](./Q89_boj_3023/3023.pdf)</br>
+Q89_boj_3023-> [implements](./Q89_boj_3023/3023.pdf)</br>
