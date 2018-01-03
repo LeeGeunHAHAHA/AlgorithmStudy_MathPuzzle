@@ -1,3 +1,6 @@
+
+
+
 n , ap = map(int, input().split())
 house = sorted([int(input()) for i in range(n)])
 left =1
